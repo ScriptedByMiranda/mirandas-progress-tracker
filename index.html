@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Progress Tracker</title>
+        <link rel="stylesheet" href="styles.css">
+        <!--<script src="script.js" defer></script> coming soon v2-->
+    </head>
+    <body>
+        <h1>Progress Tracker </h1>
+        <main>
+            <section id="daily">
+                <details open>
+                <summary class="section-summary">DAILY</summary>
+                    <h3 class="content">Hydration</h3>
+                        <form class="hydration-form">
+                            <div class="water-tracker">
+                            <div class="water-item"><input type="checkbox" id="water1"><label for="water1">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water2"><label for="water2">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water3"><label for="water3">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water4"><label for="water4">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water5"><label for="water5">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water6"><label for="water6">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water7"><label for="water7">8 oz</label></div>
+                            <div class="water-item"><input type="checkbox" id="water8"><label for="water8">8 oz</label></div>
+                            </div>
+                        </form>    
+                    <h3 class="content">Movement</h3>
+                        <form>
+                            <div class="movement-tracker">
+                            <div class="movement-item"><input type="checkbox" id="move1"><label for="move1">20 min</label></div>
+                            <div class="movement-item"><input type="checkbox" id="move2"><label for="move2">20 min</label></div>
+                            <div class="movement-item"><input type="checkbox" id="move3"><label for="move3">20 min</label></div>
+                            <div class="movement-item"><input type="checkbox" id="move4"><label for="move4">20 min</label></div>
+                            <div class="movement-item"><input type="checkbox" id="move5"><label for="move5">20 min</label></div>
+                            <div class="movement-item"><input type="checkbox" id="move6"><label for="move6">20 min</label></div>
+                            </div>
+                        </form>
+
+                    <!-- <div class="content">Nourishment</div> coming soon -->
+
+                    <h3 class="content">Deep Work</h3>
+                        <form>
+                            <div class="study-tracker">
+                            <div class="study-item"><input type="checkbox" id="study1"><label for="study1">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study2"><label for="study2">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study3"><label for="study3">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study4"><label for="study4">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study5"><label for="study5">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study6"><label for="study6">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study7"><label for="study7">30 min</label></div>
+                            <div class="study-item"><input type="checkbox" id="study8"><label for="study8">30 min</label></div>
+                            </div>
+                        </form>
+                        <!--Add Daily totals w java coming soon v2-->
+                    <!-- <div class="content">Tasks
+                        <input type="text" id="taskInput" placeholder="Add a task">
+                        <button id="addTaskBtn">Add Task</button>
+                        <ul id="taskList"></ul>
+                    </div> coming soon-->
+                </details>
+            </section>
+
+            <section id="weekly" class="weekly">
+                <details>
+                    <summary class="section-summary">WEEKLY</summary>
+                        <!--<div class="weekly-totals">
+                        <label class="content">Review</label>
+                            <p><strong>Hydration total:</strong> <span id="weekly-hydration-total">0 oz</span></p>
+                            <p><strong>Movement total:</strong> <span id="weekly-movement-total">0 min</span></p>
+                            <p><strong>Deep work total:</strong> <span id="weekly-deepwork-total">0 min</span></p>
+                        </div> coming soon v2-->
+
+                        <label class="content" for="weekly-reflection">Reflection</label>
+                        <br>
+                        <textarea id="weekly-reflection" rows="5" cols="80" placeholder="What went well this week?"></textarea>
+<br><br>
+                        <label class="content" for="weekly-focus">Focus</label>
+                        <br>
+                        <textarea id="weekly-focus" rows="5" cols="80" placeholder="Focus areas for next week"></textarea>
+                    <!-- <div class="content">Tasks
+                        <input type="text" id="taskInput" placeholder="Add a task">
+                        <button id="addTaskBtn">Add Task</button>
+                        <ul id="taskList"></ul>
+                    </div> coming soon -->
+                </details>
+            </section>
+
+            <section id="monthly" class="monthly">
+                <details>
+                    <summary class="section-summary">MONTHLY</summary>
+                    <label class="content" for="monthly-goals">Goals</label>
+                        <br>
+                        <textarea id="monthly-goals" rows="5" placeholder="Goals for next month"></textarea>
+                    <!--</html><div class="content">Review</div>
+                     <div class="content">Tasks
+                        <input type="text" id="taskInput" placeholder="Add a task">
+                        <button id="addTaskBtn">Add Task</button>
+                        <ul id="taskList"></ul>
+                    </div> coming soon-->
+                    <label class="content" for="monthly-adjustments">Adjustments</label>
+                        <br>
+                        <textarea id="monthly-adjustments" rows="5" placeholder="Adjustments for next month"></textarea>
+                </details>
+            </section>
+        </main>
+        <footer>© 2026 Miranda's Progress Tracker</footer>
+    </body>
+</html>
