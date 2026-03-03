@@ -19,5 +19,8 @@ This project is part of my web development learning journey and focuses on clean
 - Task and nourishment tracking
 - Local storage to save progress
 
+## Live Site
+https://scriptedbymiranda.github.io/mirandas-progress-tracker/
+
 
 © 2026 Miranda's Progress Tracker
